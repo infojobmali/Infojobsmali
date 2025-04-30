@@ -1,22 +1,151 @@
-
 <!DOCTYPE html>
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Info Job Mali</title>
+    <title>InfoJobsMali - Plateforme d'Emploi</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #444;
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        section {
+            padding: 2rem;
+            margin: 1rem;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
 </head>
 <body>
+
+    <!-- Header -->
     <header>
-        <img src="assets/img/logo.png" alt="Logo Info Job Mali" class="logo">
-        <h1>Bienvenue sur Info Job Mali</h1>
+        <h1>InfoJobsMali</h1>
+        <p>Votre plateforme d'emploi au Mali</p>
     </header>
-    <main>
-        <p>Info Job Mali est une plateforme dédiée à la diffusion d'opportunités d'emploi, de formation et d'appels d'offres au Mali. Suivez-nous pour ne rien rater !</p>
-    </main>
+
+    <!-- Navigation -->
+    <nav>
+        <a href="#a-propos">À propos</a>
+        <a href="#offres">Offres d'Emploi</a>
+        <a href="#candidats">Espace Candidat</a>
+        <a href="#recruteurs">Espace Recruteur</a>
+        <a href="#conseils">Conseils Carrière</a>
+        <a href="#formations">Formations</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="container">
+
+        <!-- À propos -->
+        <section id="a-propos">
+            <h2>À propos</h2>
+            <p>Bienvenue sur InfoJobsMali, la plateforme dédiée à la mise en relation des chercheurs d'emploi et des recruteurs au Mali. Notre objectif est de faciliter l'accès à des opportunités professionnelles tout en offrant des ressources pour le développement de votre carrière.</p>
+        </section>
+
+        <!-- Offres d'Emploi -->
+        <section id="offres">
+            <h2>Offres d'Emploi</h2>
+            <p>Explorez les dernières offres d'emploi dans divers secteurs au Mali. Utilisez nos filtres pour trouver des opportunités qui correspondent à vos compétences et à vos aspirations professionnelles.</p>
+            <ul>
+                <li><a href="#">Développeur Web - Entreprise A</a></li>
+                <li><a href="#">Assistant Administratif - Entreprise B</a></li>
+                <li><a href="#">Technicien Réseau - Entreprise C</a></li>
+                <li><a href="#">Responsable Marketing - Entreprise D</a></li>
+            </ul>
+        </section>
+
+        <!-- Espace Candidat -->
+        <section id="candidats">
+            <h2>Espace Candidat</h2>
+            <p>Créez votre profil, soumettez votre CV et postulez directement aux offres d'emploi qui vous intéressent. Profitez de nos conseils pour améliorer votre CV et réussir vos entretiens.</p>
+            <button><a href="#">Créer un profil</a></button>
+            <button><a href="#">Soumettre un CV</a></button>
+        </section>
+
+        <!-- Espace Recruteur -->
+        <section id="recruteurs">
+            <h2>Espace Recruteur</h2>
+            <p>Publiez vos offres d'emploi, gérez les candidatures et trouvez les meilleurs talents pour votre entreprise. Nous facilitons le processus de recrutement en ligne.</p>
+            <button><a href="#">Publier une offre</a></button>
+        </section>
+
+        <!-- Conseils Carrière -->
+        <section id="conseils">
+            <h2>Conseils Carrière</h2>
+            <p>Découvrez des conseils utiles pour booster votre carrière, rédiger un CV efficace, se préparer aux entretiens et bien plus encore.</p>
+            <ul>
+                <li><a href="#">Comment rédiger un CV percutant</a></li>
+                <li><a href="#">Préparer un entretien d'embauche</a></li>
+                <li><a href="#">Les compétences les plus recherchées</a></li>
+            </ul>
+        </section>
+
+        <!-- Formations -->
+        <section id="formations">
+            <h2>Formations</h2>
+            <p>Accédez à une sélection de formations professionnelles pour améliorer vos compétences et augmenter vos chances de succès sur le marché de l'emploi.</p>
+            <ul>
+                <li><a href="#">Formation Développement Web</a></li>
+                <li><a href="#">Certification en Gestion de Projet</a></li>
+                <li><a href="#">Formation en Marketing Digital</a></li>
+            </ul>
+        </section>
+
+        <!-- Contact -->
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>Pour toute question ou pour plus d'informations, contactez-nous à l'adresse suivante :</p>
+            <p>Email: <a href="mailto:contact@infojobmali.com">contact@infojobmali.com</a></p>
+            <p>Téléphone: +223 67680404</p>
+        </section>
+        
+    </div>
+
+    <!-- Footer -->
     <footer>
-        <p>&copy; 2025 Info Job Mali - Tous droits réservés</p>
+        <p>&copy; 2025 InfoJobsMali - Tous droits réservés</p>
     </footer>
+
 </body>
 </html>
